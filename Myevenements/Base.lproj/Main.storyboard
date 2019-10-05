@@ -7,33 +7,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Organization-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <viewLayoutGuide key="safeArea" id="7th-xQ-OoN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Organization" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
         </scene>
-        <!--Second-->
+        <!--Annuaire-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleAspectFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Annuaire" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,16 +47,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-T2-aSU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ouverture" translatesAutoresizingMaskIntoConstraints="NO" id="qxB-T2-aSU">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eVB-kK-rKH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="iXh-K7-H60">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="15g-Fp-X0H">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="lUq-sV-ybw">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ouverture" translatesAutoresizingMaskIntoConstraints="NO" id="1RT-Z3-ZL9">
+                                <rect key="frame" x="87" y="54" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="45z-NQ-yLj"/>
+                                    <constraint firstAttribute="width" constant="240" id="vzI-lv-usb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organiser votre evenement en toute sérénité" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fm0-yK-DVe">
+                                <rect key="frame" x="20" y="202" width="374" height="580"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POP-qL-s37">
+                                <rect key="frame" x="20" y="802" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rvB-TC-5er"/>
+                                </constraints>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="xIr-5z-TD2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="qxB-T2-aSU" secondAttribute="bottom" id="Dj9-FO-kXQ"/>
                             <constraint firstItem="qxB-T2-aSU" firstAttribute="top" secondItem="aM8-S2-oI5" secondAttribute="top" id="FW6-0E-DmB"/>
+                            <constraint firstItem="lSV-hL-xiY" firstAttribute="trailing" secondItem="fm0-yK-DVe" secondAttribute="trailing" constant="20" id="Iwl-hs-Yep"/>
+                            <constraint firstItem="lSV-hL-xiY" firstAttribute="bottom" secondItem="POP-qL-s37" secondAttribute="bottom" constant="10" id="bXA-7V-Dg6"/>
+                            <constraint firstItem="lSV-hL-xiY" firstAttribute="trailing" secondItem="POP-qL-s37" secondAttribute="trailing" constant="20" id="c2O-Sw-IKQ"/>
+                            <constraint firstItem="POP-qL-s37" firstAttribute="top" secondItem="fm0-yK-DVe" secondAttribute="bottom" constant="20" id="c4o-Wf-mtw"/>
+                            <constraint firstItem="1RT-Z3-ZL9" firstAttribute="top" secondItem="lSV-hL-xiY" secondAttribute="top" constant="10" id="c9Q-P0-0G1"/>
+                            <constraint firstItem="fm0-yK-DVe" firstAttribute="top" secondItem="1RT-Z3-ZL9" secondAttribute="bottom" constant="20" id="d5l-wf-vIW"/>
+                            <constraint firstAttribute="bottom" secondItem="eVB-kK-rKH" secondAttribute="bottom" id="dGG-sC-Wc6"/>
                             <constraint firstItem="qxB-T2-aSU" firstAttribute="trailing" secondItem="lSV-hL-xiY" secondAttribute="trailing" id="eL8-Rw-O0B"/>
                             <constraint firstItem="qxB-T2-aSU" firstAttribute="leading" secondItem="lSV-hL-xiY" secondAttribute="leading" id="g41-j6-uer"/>
+                            <constraint firstItem="eVB-kK-rKH" firstAttribute="trailing" secondItem="lSV-hL-xiY" secondAttribute="trailing" id="ia4-Rk-Lj5"/>
+                            <constraint firstItem="eVB-kK-rKH" firstAttribute="top" secondItem="aM8-S2-oI5" secondAttribute="top" id="lFp-Bv-Vjx"/>
+                            <constraint firstItem="POP-qL-s37" firstAttribute="leading" secondItem="lSV-hL-xiY" secondAttribute="leading" constant="20" id="qit-ZA-vEb"/>
+                            <constraint firstItem="1RT-Z3-ZL9" firstAttribute="centerX" secondItem="aM8-S2-oI5" secondAttribute="centerX" id="qqs-Vq-0sM"/>
+                            <constraint firstItem="eVB-kK-rKH" firstAttribute="leading" secondItem="aM8-S2-oI5" secondAttribute="leading" id="uxU-dB-Zrl"/>
+                            <constraint firstItem="fm0-yK-DVe" firstAttribute="leading" secondItem="lSV-hL-xiY" secondAttribute="leading" constant="20" id="xwm-v5-OMn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lSV-hL-xiY"/>
                     </view>
@@ -69,6 +128,7 @@
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hM8-cs-1Xd"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -85,7 +145,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="Ouverture" width="510" height="340"/>
     </resources>
 </document>
