@@ -12,6 +12,11 @@
 		BDF5B1E62348E05F0034C715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF5B1E42348E05F0034C715 /* Main.storyboard */; };
 		BDF5B1E82348E0600034C715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF5B1E72348E0600034C715 /* Assets.xcassets */; };
 		BDF5B1EB2348E0600034C715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF5B1E92348E0600034C715 /* LaunchScreen.storyboard */; };
+		BDF5B1F62349037B0034C715 /* AnnuaireTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1F52349037B0034C715 /* AnnuaireTableViewController.swift */; };
+		BDF5B1F8234903BA0034C715 /* Prestataire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1F7234903BA0034C715 /* Prestataire.swift */; };
+		BDF5B1FA234906840034C715 /* PrestataireCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1F9234906840034C715 /* PrestataireCollections.swift */; };
+		BDF5B1FC2349D9E90034C715 /* PrestataireCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */; };
+		BDF5B1FE2349DD710034C715 /* TypePrestataire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BDF5B1E72348E0600034C715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF5B1EA2348E0600034C715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF5B1EC2348E0600034C715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF5B1F52349037B0034C715 /* AnnuaireTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnuaireTableViewController.swift; sourceTree = "<group>"; };
+		BDF5B1F7234903BA0034C715 /* Prestataire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prestataire.swift; sourceTree = "<group>"; };
+		BDF5B1F9234906840034C715 /* PrestataireCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestataireCollections.swift; sourceTree = "<group>"; };
+		BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestataireCellTableViewCell.swift; sourceTree = "<group>"; };
+		BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePrestataire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,9 @@
 		BDF5B1F22348E58E0034C715 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				BDF5B1F7234903BA0034C715 /* Prestataire.swift */,
+				BDF5B1F9234906840034C715 /* PrestataireCollections.swift */,
+				BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -77,6 +90,7 @@
 		BDF5B1F32348E5950034C715 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -84,6 +98,7 @@
 		BDF5B1F42348E5990034C715 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDF5B1F52349037B0034C715 /* AnnuaireTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF5B1F62349037B0034C715 /* AnnuaireTableViewController.swift in Sources */,
+				BDF5B1F8234903BA0034C715 /* Prestataire.swift in Sources */,
+				BDF5B1FE2349DD710034C715 /* TypePrestataire.swift in Sources */,
+				BDF5B1FC2349D9E90034C715 /* PrestataireCellTableViewCell.swift in Sources */,
+				BDF5B1FA234906840034C715 /* PrestataireCollections.swift in Sources */,
 				BDF5B1DD2348E05F0034C715 /* AppDelegate.swift in Sources */,
 				BDF5B1DF2348E05F0034C715 /* SceneDelegate.swift in Sources */,
 			);
