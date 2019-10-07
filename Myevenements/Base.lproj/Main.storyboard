@@ -14,7 +14,69 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ouverture" translatesAutoresizingMaskIntoConstraints="NO" id="15c-LK-7Oo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="94u-Cb-5XI">
+                                <rect key="frame" x="20" y="201" width="374" height="455"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZf-gr-RjY">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="95"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Budget de l'evenement">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrn-zo-LrA">
+                                        <rect key="frame" x="0.0" y="120" width="374" height="95"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Devis de l'evenement">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vev-8a-BC4">
+                                        <rect key="frame" x="0.0" y="240" width="374" height="95"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Contrats de l'evenement">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fh0-e9-elw">
+                                        <rect key="frame" x="0.0" y="360" width="374" height="95"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Financement et paiement">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marriage Anais et Fabien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMH-ty-kEF">
+                                <rect key="frame" x="20" y="67" width="374" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votre projet debute dans 100 jours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAW-fm-fBc">
+                                <rect key="frame" x="20" y="139" width="374" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="15c-LK-7Oo" secondAttribute="bottom" id="BOy-E4-Jf5"/>
+                            <constraint firstItem="15c-LK-7Oo" firstAttribute="leading" secondItem="7th-xQ-OoN" secondAttribute="leading" id="F0j-du-gID"/>
+                            <constraint firstItem="15c-LK-7Oo" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="GoI-tn-jVz"/>
+                            <constraint firstItem="94u-Cb-5XI" firstAttribute="leading" secondItem="7th-xQ-OoN" secondAttribute="leading" constant="20" id="KOb-6J-Z4F"/>
+                            <constraint firstItem="94u-Cb-5XI" firstAttribute="top" secondItem="7th-xQ-OoN" secondAttribute="top" constant="157" id="OcB-Vv-Ybq"/>
+                            <constraint firstItem="15c-LK-7Oo" firstAttribute="trailing" secondItem="7th-xQ-OoN" secondAttribute="trailing" id="VOA-p0-zZz"/>
+                            <constraint firstItem="7th-xQ-OoN" firstAttribute="trailing" secondItem="94u-Cb-5XI" secondAttribute="trailing" constant="20" id="nTJ-8y-8ae"/>
+                            <constraint firstItem="7th-xQ-OoN" firstAttribute="bottom" secondItem="94u-Cb-5XI" secondAttribute="bottom" constant="157" id="vmd-IJ-O9t"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7th-xQ-OoN"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Organization" id="acW-dT-cKf"/>
