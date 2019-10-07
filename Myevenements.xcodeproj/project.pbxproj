@@ -17,6 +17,7 @@
 		BDF5B1FA234906840034C715 /* PrestataireCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1F9234906840034C715 /* PrestataireCollections.swift */; };
 		BDF5B1FC2349D9E90034C715 /* PrestataireCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */; };
 		BDF5B1FE2349DD710034C715 /* TypePrestataire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */; };
+		BDF5B222234BA80B0034C715 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B221234BA80B0034C715 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BDF5B1F9234906840034C715 /* PrestataireCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestataireCollections.swift; sourceTree = "<group>"; };
 		BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestataireCellTableViewCell.swift; sourceTree = "<group>"; };
 		BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePrestataire.swift; sourceTree = "<group>"; };
+		BDF5B221234BA80B0034C715 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BDF5B1F52349037B0034C715 /* AnnuaireTableViewController.swift */,
+				BDF5B221234BA80B0034C715 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				BDF5B1FA234906840034C715 /* PrestataireCollections.swift in Sources */,
 				BDF5B1DD2348E05F0034C715 /* AppDelegate.swift in Sources */,
 				BDF5B1DF2348E05F0034C715 /* SceneDelegate.swift in Sources */,
+				BDF5B222234BA80B0034C715 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
