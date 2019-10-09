@@ -10,7 +10,7 @@
         <!--Organization-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="ProjectViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--User View Controller-->
         <scene sceneID="exR-1T-ghi">
             <objects>
-                <viewController id="pgj-MI-HhF" sceneMemberID="viewController">
+                <viewController id="pgj-MI-HhF" customClass="UserViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aM8-S2-oI5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +139,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="presentation" modalPresentationStyle="fullScreen" id="gcg-xM-ios"/>
+                                    <action selector="connectAction:" destination="pgj-MI-HhF" eventType="touchUpInside" id="zV8-vB-WSY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -165,15 +165,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lSV-hL-xiY"/>
                     </view>
+                    <connections>
+                        <segue destination="49e-Tb-3d3" kind="presentation" identifier="userConnection" modalPresentationStyle="fullScreen" id="CO1-WW-afH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EKc-db-S2C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-778.26086956521749" y="0.6696428571428571"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController interfaceStyle="light" id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController interfaceStyle="light" id="49e-Tb-3d3" customClass="TabBarViewController" customModule="Myevenements" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="hM8-cs-1Xd"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">

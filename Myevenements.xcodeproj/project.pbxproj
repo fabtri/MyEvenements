@@ -18,6 +18,13 @@
 		BDF5B1FC2349D9E90034C715 /* PrestataireCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */; };
 		BDF5B1FE2349DD710034C715 /* TypePrestataire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */; };
 		BDF5B222234BA80B0034C715 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B221234BA80B0034C715 /* DetailViewController.swift */; };
+		BDF5B224234BD4830034C715 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B223234BD4830034C715 /* User.swift */; };
+		BDF5B226234BD8790034C715 /* UsersCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B225234BD8790034C715 /* UsersCollection.swift */; };
+		BDF5B228234BD9B20034C715 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B227234BD9B20034C715 /* UserViewController.swift */; };
+		BDF5B22A234BDB720034C715 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B229234BDB720034C715 /* ProjectViewController.swift */; };
+		BDF5B22C234BEA8A0034C715 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B22B234BEA8A0034C715 /* TabBarViewController.swift */; };
+		BDF5B22E234BECC40034C715 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B22D234BECC40034C715 /* Project.swift */; };
+		BDF5B230234BED210034C715 /* TypeProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5B22F234BED210034C715 /* TypeProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		BDF5B1FB2349D9E90034C715 /* PrestataireCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestataireCellTableViewCell.swift; sourceTree = "<group>"; };
 		BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePrestataire.swift; sourceTree = "<group>"; };
 		BDF5B221234BA80B0034C715 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BDF5B223234BD4830034C715 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BDF5B225234BD8790034C715 /* UsersCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollection.swift; sourceTree = "<group>"; };
+		BDF5B227234BD9B20034C715 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		BDF5B229234BDB720034C715 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		BDF5B22B234BEA8A0034C715 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BDF5B22D234BECC40034C715 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		BDF5B22F234BED210034C715 /* TypeProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,10 @@
 				BDF5B1F7234903BA0034C715 /* Prestataire.swift */,
 				BDF5B1F9234906840034C715 /* PrestataireCollections.swift */,
 				BDF5B1FD2349DD710034C715 /* TypePrestataire.swift */,
+				BDF5B223234BD4830034C715 /* User.swift */,
+				BDF5B225234BD8790034C715 /* UsersCollection.swift */,
+				BDF5B22D234BECC40034C715 /* Project.swift */,
+				BDF5B22F234BED210034C715 /* TypeProject.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -102,6 +120,9 @@
 			children = (
 				BDF5B1F52349037B0034C715 /* AnnuaireTableViewController.swift */,
 				BDF5B221234BA80B0034C715 /* DetailViewController.swift */,
+				BDF5B227234BD9B20034C715 /* UserViewController.swift */,
+				BDF5B229234BDB720034C715 /* ProjectViewController.swift */,
+				BDF5B22B234BEA8A0034C715 /* TabBarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,10 +201,17 @@
 				BDF5B1F62349037B0034C715 /* AnnuaireTableViewController.swift in Sources */,
 				BDF5B1F8234903BA0034C715 /* Prestataire.swift in Sources */,
 				BDF5B1FE2349DD710034C715 /* TypePrestataire.swift in Sources */,
+				BDF5B228234BD9B20034C715 /* UserViewController.swift in Sources */,
 				BDF5B1FC2349D9E90034C715 /* PrestataireCellTableViewCell.swift in Sources */,
 				BDF5B1FA234906840034C715 /* PrestataireCollections.swift in Sources */,
+				BDF5B224234BD4830034C715 /* User.swift in Sources */,
 				BDF5B1DD2348E05F0034C715 /* AppDelegate.swift in Sources */,
+				BDF5B230234BED210034C715 /* TypeProject.swift in Sources */,
+				BDF5B22A234BDB720034C715 /* ProjectViewController.swift in Sources */,
+				BDF5B22E234BECC40034C715 /* Project.swift in Sources */,
 				BDF5B1DF2348E05F0034C715 /* SceneDelegate.swift in Sources */,
+				BDF5B22C234BEA8A0034C715 /* TabBarViewController.swift in Sources */,
+				BDF5B226234BD8790034C715 /* UsersCollection.swift in Sources */,
 				BDF5B222234BA80B0034C715 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
